@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App by Ola.dev</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="app-container">
+      <div class="weather-container">
+        <div class="weather-card">
+          <h1>Weather App by Ola.Dev</h1>
+          <div class="weather-temp">
+            <span class="temp-value">20</span>
+          </div>
+          <div class="weather-location">
+            <h1 class="location-name">Ibadan</h1>
+            <p class="location-time">2025-05-21 16:15</p>
+          </div>
+          <div class="weather-condition">
+            <div class="condition-icon">
+              <i class="fas fa-cloud"></i>
+            </div>
+            <p class="condition-text">Mist</p>
+          </div>
+        </div>
+      </div>
+
+      <nav class="search-container">
+        <form class="search-form">
+          <input
+            type="text"
+            placeholder="Search for location"
+            class="search-input"
+            aria-label="Search for location"
+          />
+          <button type="submit" class="search-button">
+            <i class="fas fa-search"></i> Search
+          </button>
+        </form>
+      </nav>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
